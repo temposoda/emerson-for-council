@@ -24,22 +24,22 @@ that lives here. Me too! In the coming weeks and months, I'll have a lot more to
             <a href="https://www.portlandforward.org/" className="underline">
               The team at Portland Forward
             </a>
-            , who care about making Portland the best possible place for
-            everyone.
+            {`, who care about making Portland the best possible place for
+            everyone.`}
           </li>
           <li>
             <a href="https://www.starvoting.org/" className="underline">
               The team at STAR Voting
             </a>
-            , who want to ensure that democracy works for everyone and can't be
-            gamed or abused.
+            {`who want to ensure that democracy works for everyone and can't be
+            gamed or abused.`}
           </li>
           <li>
             <a href="https://superthank.org/" className="underline">
               The people at SuperThank
             </a>
-            , who want doing good in our communities to be easier and more
-            rewarding.
+            {`, who want doing good in our communities to be easier and more
+            rewarding.`}
           </li>
         </ul>
       </div>
