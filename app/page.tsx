@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
       <Header />
-      <div className="prose prose-invert">
+      <div className="prose dark:prose-invert">
         <p>
           <span
             className={`${gabriela.className} align-text-top text-8xl pr-2 font-black float-left`}
@@ -31,7 +31,7 @@ that lives here. Me too! In the coming weeks and months, I'll have a lot more to
             <a href="https://www.starvoting.org/" className="underline">
               The team at STAR Voting
             </a>
-            {`who want to ensure that democracy works for everyone and can't be
+            {` who want to ensure that democracy works for everyone and can't be
             gamed or abused.`}
           </li>
           <li>
