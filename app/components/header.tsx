@@ -2,7 +2,7 @@ import { LocaleSwitcher } from "../components";
 import { Raleway } from "next/font/google";
 const raleway = Raleway({ subsets: ["latin"] });
 
-export const Header = () => (
+export const Header = ({ dictionary }) => (
   <div className="z-10 w-full">
     <h1
       className={`
@@ -23,7 +23,7 @@ export const Header = () => (
         w-full 
       `}
     >
-      Joseph Emerson for Portland City Council
+      {dictionary.components.Header}
     </h1>
     <LocaleSwitcher />
   </div>
