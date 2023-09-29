@@ -1,6 +1,7 @@
 import { i18n } from "../../i18n-config";
 import { Header, Footer, getDictionary } from "../components";
 import { Open_Sans } from "next/font/google";
+import type { Locale } from "../../i18n-config";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 import "./globals.css";
@@ -19,7 +20,7 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: string };
+  params: { lang: Locale };
 }) {
   const dictionary = await getDictionary(params.lang);
 
