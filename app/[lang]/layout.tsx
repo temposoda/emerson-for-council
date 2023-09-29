@@ -1,9 +1,8 @@
-import { Inter } from "next/font/google";
 import { i18n } from "../../i18n-config";
 import { Header, Footer } from "../components";
+import { Open_Sans } from "next/font/google";
+const openSans = Open_Sans({ subsets: ["latin"] });
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Emerson for Council",
@@ -24,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body
-        className={`${inter.className} min-h-screen flex flex-col justify-between`}
+        className={`${openSans.className} min-h-screen flex flex-col justify-between`}
       >
         <Header />
         {children}
