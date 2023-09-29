@@ -9,15 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.4.2",
     "@next/mdx": "^13.5.3",
     "@tailwindcss/typography": "latest",
     "@types/mdx": "2.0.3",
+    "@types/negotiator": "^0.6.1",
     "@types/node": "20.7.0",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.16",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.3",
+    "negotiator": "^0.6.3",
     "next": "13.5.3",
     "postcss": "8.4.30",
     "react": "18.2.0",
