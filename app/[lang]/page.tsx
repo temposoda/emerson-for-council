@@ -13,7 +13,7 @@ export default async function Home({
 }) {
   const Content = await getContent(lang);
   return (
-    <main className="flex min-h-screen flex-col items-center px-8 pt-24">
+    <main className="flex flex-col items-center pt-24 px-8">
       <div className="prose dark:prose-invert">
         <Content />
       </div>
