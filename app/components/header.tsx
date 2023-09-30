@@ -1,8 +1,12 @@
-import { LocaleSwitcher } from "../components";
+import { LocaleSwitcher, getDictionary } from "../components";
 import { Raleway } from "next/font/google";
 const raleway = Raleway({ subsets: ["latin"] });
 
-export const Header = ({ dictionary }) => (
+export const Header = ({
+  dictionary,
+}: {
+  dictionary: Awaited<ReturnType<typeof getDictionary>>;
+}) => (
   <div className="z-10 w-full">
     <h1
       className={`
