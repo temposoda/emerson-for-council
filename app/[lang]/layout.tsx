@@ -2,6 +2,7 @@ import { i18n } from "../../i18n-config";
 import { Header, Footer, getDictionary } from "../components";
 import { Open_Sans } from "next/font/google";
 import type { Locale } from "../../i18n-config";
+import { Analytics } from "@vercel/analytics/react";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 import "./globals.css";
@@ -32,6 +33,7 @@ export default async function RootLayout({
         <Header dictionary={dictionary} />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
