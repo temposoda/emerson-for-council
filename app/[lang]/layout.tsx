@@ -4,7 +4,7 @@ import { Open_Sans } from "next/font/google";
 import type { Locale } from "../../i18n-config";
 import { Analytics } from "@vercel/analytics/react";
 
-const openSans = Open_Sans({ subsets: ["latin"] });
+const openSans = Open_Sans({ subsets: ["latin"], display: "swap" });
 import "./globals.css";
 
 export const metadata = {

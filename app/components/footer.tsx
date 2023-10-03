@@ -12,14 +12,16 @@ export const Footer = () => (
                 dark:bg-zinc-800/30 
                 dark:from-inherit"
   >
-    <ul className="flex flex-col justify-around items-center gap-1">
+    <ul className="flex flex-col justify-around items-center">
       <li>
-        <a href="mailto:contact@emersonforcouncil.com">
+        <a className="block p-2" href="mailto:contact@emersonforcouncil.com">
           contact@emersonforcouncil.com
         </a>
       </li>
       <li>
-        <a href="tel:+15036108072">(503) 610-8072</a>
+        <a className="block p-2" href="tel:+15036108072">
+          (503) 610-8072
+        </a>
       </li>
     </ul>
   </footer>
