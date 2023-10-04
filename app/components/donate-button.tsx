@@ -6,7 +6,7 @@ export const DonateButton = () => {
       className="btn btn-lg btn-primary"
       href="https://secure.actblue.com/donate/emersonforcouncil"
     >
-      Contribute
+      Donate
     </a>
   );
 };

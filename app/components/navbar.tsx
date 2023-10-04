@@ -1,3 +1,5 @@
+import { DonateButton } from "@/app/components";
+
 export const Navbar = () => (
   <div className="rounded-lg shadow drawer drawer-end">
     <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -30,6 +32,14 @@ export const Navbar = () => (
             <li>
               <a href="/volunteer" className="rounded-btn">
                 Volunteer
+              </a>
+            </li>
+            <li>
+              <a
+                className="rounded-btn btn-primary"
+                href="https://secure.actblue.com/donate/emersonforcouncil"
+              >
+                Donate
               </a>
             </li>
           </ul>
