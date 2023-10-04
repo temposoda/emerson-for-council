@@ -1,11 +1,6 @@
 import React from "react";
 import img from "@/public/stjohns-bridge.jpg";
-import {
-  Header,
-  Footer,
-  DonateButton,
-  VolunteerButton,
-} from "@/app/components";
+import { Footer, DonateButton, VolunteerButton } from "@/app/components";
 import { Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 

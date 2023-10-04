@@ -1,12 +1,5 @@
 export const Footer = () => (
-  <footer
-    className="z-10 
-                w-full 
-                border-t 
-                px-8
-                py-4
-                "
-  >
+  <footer className="w-full px-8 py-4">
     <ul className="flex flex-col justify-around items-center">
       <li>
         <a className="block p-2" href="mailto:contact@emersonforcouncil.com">

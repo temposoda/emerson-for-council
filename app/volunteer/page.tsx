@@ -1,12 +1,7 @@
 import Content from "./content.mdx";
 import img from "@/public/together.jpg";
 import React from "react";
-import {
-  Header,
-  Footer,
-  DonateButton,
-  VolunteerButton,
-} from "@/app/components";
+import { Footer, DonateButton, VolunteerButton } from "@/app/components";
 import { Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
