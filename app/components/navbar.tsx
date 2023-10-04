@@ -4,7 +4,7 @@ export const Navbar = () => (
     <div className="flex flex-row drawer-content">
       <div className="w-full navbar justify-end ">
         <div className="flex-none lg:hidden">
-          <label for="my-drawer-3" className="btn btn-square btn-ghost">
+          <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -37,7 +37,7 @@ export const Navbar = () => (
       </div>
     </div>
     <div className="drawer-side">
-      <label for="my-drawer-3" className="drawer-overlay"></label>
+      <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
       <ul className="p-4 overflow-y-auto menu w-full bg-base-100">
         <li>
           <a href="/" className="rounded-btn self-end">
