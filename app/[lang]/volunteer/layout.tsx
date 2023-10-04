@@ -1,5 +1,5 @@
 import { i18n } from "@/i18n-config";
-import img from "@/public/stjohns-bridge.jpg";
+import Image from "next/image";
 import {
   Header,
   Footer,
@@ -13,7 +13,6 @@ import type { Locale } from "@/i18n-config";
 import { Analytics } from "@vercel/analytics/react";
 
 const openSans = Open_Sans({ subsets: ["latin"], display: "swap" });
-import "./globals.css";
 
 export const metadata = {
   title: "Emerson for Council",
@@ -24,7 +23,7 @@ export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }
 
-export default async function RootLayout({
+export default async function Layout({
   children,
   params,
 }: {
@@ -38,29 +37,24 @@ export default async function RootLayout({
       <body
         className={`${openSans.className} min-h-screen flex flex-col justify-between`}
       >
-        <div
-          className="hero min-h-screen"
-          style={{
-            // Photo by <a href="https://unsplash.com/@digitech?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ruvim Miksanskiy</a> on <a href="https://unsplash.com/photos/P-2B19yvulw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            backgroundImage: `url(${img.src})`,
-          }}
-        >
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center">
-            <div className="max-w-md">
-              <h1 className="mb-5 text-2xl font-bold">
-                {dictionary.components.Header}
-              </h1>
-              <div className="flex flex-column flex-wrap gap-3 justify-center items-center">
+        <div className="hero min-h-screen bg-base-200">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <Image
+              src="/together.jpg"
+              width={500}
+              height={500}
+              alt="Baby on daddy's shoulder"
+            />
+            <div>
+              <div>
+                {children}
                 <DonateButton dictionary={dictionary} />
-                <VolunteerButton dictionary={dictionary} />
               </div>
             </div>
           </div>
-          <LocaleSwitcher />
         </div>
-        {children}
-        <Footer />
+
+        <LocaleSwitcher />
         <Analytics />
       </body>
     </html>

@@ -1,4 +1,4 @@
-import { LocaleSwitcher, getDictionary } from "../components";
+import { LocaleSwitcher, getDictionary, DonateButton } from "../components";
 
 export const Header = ({
   dictionary,

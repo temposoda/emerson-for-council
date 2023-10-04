@@ -23,7 +23,7 @@ export function LocaleSwitcher() {
         Choose a language:
       </label>
       <select
-        className="p-1 bg-transparent"
+        className="p-1 bg-opacity-30 bg-black"
         id="lang-select"
         defaultValue={getLocale(pathName)}
         onChange={(event) => {
