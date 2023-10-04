@@ -14,10 +14,20 @@ export default async function Volunteer() {
           backgroundImage: `url(${img.src})`,
         }}
       >
-        <div className="hero-overlay bg-opacity-90"></div>
+        <div className="hero-overlay bg-opacity-80"></div>
         <div className="hero-content">
-          <div className="flex flex-col justify-center items-center flex-wrap gap-4">
-            <div className="prose">
+          <div className="flex flex-col justify-center items-center flex-wrap gap-8">
+            <div
+              className="prose 
+                            text-primary-content 
+                            prose-h1:text-primary-content 
+                            prose-li:text-primary-content 
+                            prose-a:text-primary-content
+                            prose-a:text-primary-content
+                            prose-a:font-bold
+                            prose-a:bg-opacity-80
+                            prose-a:bg-neutral"
+            >
               <Content />
             </div>
             <DonateButton />

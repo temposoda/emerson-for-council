@@ -1,6 +1,11 @@
 import React from "react";
 import img from "@/public/stjohns-bridge.jpg";
-import { Footer, DonateButton, VolunteerButton } from "@/app/components";
+import {
+  Footer,
+  DonateButton,
+  VolunteerButton,
+  Navbar,
+} from "@/app/components";
 import { Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -22,6 +27,9 @@ export default async function RootLayout({
       <body
         className={`${openSans.className} min-h-screen flex flex-col justify-between`}
       >
+        <div className="grow">
+          <Navbar />
+        </div>
         {children}
         <Footer />
         <Analytics />
