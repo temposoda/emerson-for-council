@@ -1,10 +1,10 @@
 export const Navbar = () => (
-  <div class="rounded-lg shadow drawer drawer-end">
-    <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
-    <div class="flex flex-row drawer-content">
-      <div class="w-full navbar justify-end ">
-        <div class="flex-none lg:hidden">
-          <label for="my-drawer-3" class="btn btn-square btn-ghost">
+  <div className="rounded-lg shadow drawer drawer-end">
+    <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+    <div className="flex flex-row drawer-content">
+      <div className="w-full navbar justify-end ">
+        <div className="flex-none lg:hidden">
+          <label for="my-drawer-3" className="btn btn-square btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -20,15 +20,15 @@ export const Navbar = () => (
             </svg>
           </label>
         </div>
-        <div class="flex-none hidden lg:block">
-          <ul class="menu menu-horizontal">
+        <div className="flex-none hidden lg:block">
+          <ul className="menu menu-horizontal">
             <li>
-              <a href="/" class="rounded-btn">
+              <a href="/" className="rounded-btn">
                 Home
               </a>
             </li>
             <li>
-              <a href="/volunteer" class="rounded-btn">
+              <a href="/volunteer" className="rounded-btn">
                 Volunteer
               </a>
             </li>
@@ -36,16 +36,16 @@ export const Navbar = () => (
         </div>
       </div>
     </div>
-    <div class="drawer-side">
-      <label for="my-drawer-3" class="drawer-overlay"></label>
-      <ul class="p-4 overflow-y-auto menu w-full bg-base-100">
+    <div className="drawer-side">
+      <label for="my-drawer-3" className="drawer-overlay"></label>
+      <ul className="p-4 overflow-y-auto menu w-full bg-base-100">
         <li>
-          <a href="/" class="rounded-btn self-end">
+          <a href="/" className="rounded-btn self-end">
             Home
           </a>
         </li>
         <li>
-          <a href="/volunteer" class="rounded-btn self-end">
+          <a href="/volunteer" className="rounded-btn self-end">
             Volunteer
           </a>
         </li>
