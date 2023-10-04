@@ -5,12 +5,7 @@ export const Footer = () => (
                 border-t 
                 px-8
                 py-4
-                border-gray-300 
-                bg-gradient-to-t
-                from-zinc-200 
-                dark:border-neutral-800 
-                dark:bg-zinc-800/30 
-                dark:from-inherit"
+                "
   >
     <ul className="flex flex-col justify-around items-center">
       <li>

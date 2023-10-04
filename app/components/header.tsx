@@ -1,10 +1,6 @@
-import { LocaleSwitcher, getDictionary, DonateButton } from "../components";
+import { DonateButton } from "../components";
 
-export const Header = ({
-  dictionary,
-}: {
-  dictionary: Awaited<ReturnType<typeof getDictionary>>;
-}) => (
+export const Header = () => (
   <header className="z-10 w-full">
     <h1
       className={`
@@ -23,9 +19,7 @@ export const Header = ({
         text-center 
         w-full 
       `}
-    >
-      {dictionary.components.Header}
-    </h1>
+    ></h1>
     <LocaleSwitcher />
   </header>
 );
