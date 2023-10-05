@@ -13,7 +13,7 @@ export const Footer = () => (
       </li>
       <li>
         <a
-          className="underline block p-2"
+          className="text-center block p-2"
           href="https://secure.sos.state.or.us/orestar/sooDetail.do?sooRsn=98631"
         >
           Paid for by Joseph Emerson for Portland City Council (PAC ID: 23184)
