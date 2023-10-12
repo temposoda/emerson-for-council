@@ -1,10 +1,9 @@
-import { DonateButton } from "@/app/components";
 
 export const Navbar = () => (
   <div className="rounded-lg shadow drawer drawer-end">
     <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
     <div className="flex flex-row drawer-content">
-      <div className="w-full navbar justify-end ">
+      <div className="w-full navbar justify-end">
         <div className="flex-none lg:hidden">
           <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
             <svg
