@@ -1,9 +1,7 @@
 import Content from "./content.mdx";
 import img from "@/public/together.jpg";
 import React from "react";
-import { Footer, DonateButton, VolunteerButton } from "@/app/components";
-import { Open_Sans } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { DonateButton } from "@/app/components";
 
 export default async function Volunteer() {
   return (
@@ -14,19 +12,16 @@ export default async function Volunteer() {
           backgroundImage: `url(${img.src})`,
         }}
       >
-        <div className="hero-overlay bg-opacity-80"></div>
+        <div className="hero-overlay bg-opacity-50"></div>
         <div className="hero-content">
           <div className="flex flex-col justify-center items-center flex-wrap gap-8">
             <div
               className="prose 
-                            text-primary-content 
-                            prose-h1:text-primary-content 
-                            prose-li:text-primary-content 
-                            prose-a:text-primary-content
-                            prose-a:text-primary-content
-                            prose-a:font-bold
-                            prose-a:bg-opacity-80
-                            prose-a:bg-neutral"
+                            text-white 
+                            prose-h1:text-white
+                            prose-li:text-white
+                            prose-a:text-white
+                            prose-a:font-bold"
             >
               <Content />
             </div>

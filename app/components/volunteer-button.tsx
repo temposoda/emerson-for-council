@@ -1,9 +1,10 @@
 import React from "react";
+import Link from "next/link";
 
 export const VolunteerButton = () => {
   return (
-    <a className="btn btn-lg btn-secondary" href="/volunteer">
+    <Link className="btn btn-lg btn-secondary" href="/volunteer">
       Get Involved
-    </a>
+    </Link>
   );
 };

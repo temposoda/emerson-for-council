@@ -23,7 +23,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html data-theme="cyberpunk">
       <body
         className={`${openSans.className} min-h-screen flex flex-col justify-between`}
       >

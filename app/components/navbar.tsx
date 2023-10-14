@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export const Navbar = () => (
   <div className="rounded-lg shadow drawer drawer-end">
@@ -24,22 +25,32 @@ export const Navbar = () => (
         <div className="flex-none hidden lg:block">
           <ul className="menu menu-horizontal">
             <li>
-              <a href="/" className="rounded-btn">
+              <Link href="/" className="rounded-btn">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/volunteer" className="rounded-btn">
+              <Link href="/about" className="rounded-btn">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/platform" className="rounded-btn">
+                Platform
+              </Link>
+            </li>
+            <li>
+              <Link href="/volunteer" className="rounded-btn">
                 Volunteer
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="rounded-btn btn-primary"
                 href="https://secure.actblue.com/donate/emersonforcouncil"
               >
                 Donate
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -49,14 +60,24 @@ export const Navbar = () => (
       <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
       <ul className="p-4 overflow-y-auto menu w-full bg-base-100">
         <li>
-          <a href="/" className="rounded-btn self-end">
+          <Link href="/" className="rounded-btn self-end">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/volunteer" className="rounded-btn self-end">
+          <Link href="/about" className="rounded-btn self-end">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="/platform" className="rounded-btn self-end">
+            Platform
+          </Link>
+        </li>
+        <li>
+          <Link href="/volunteer" className="rounded-btn self-end">
             Volunteer
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

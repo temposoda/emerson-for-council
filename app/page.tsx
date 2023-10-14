@@ -1,26 +1,30 @@
-import img from "@/public/stjohns-bridge.jpg";
-import { Footer, DonateButton, VolunteerButton } from "@/app/components";
-import { Open_Sans } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
+import { DonateButton, VolunteerButton } from "@/app/components";
 import Content from "./content.mdx";
 
 export default async function Home() {
   return (
     <>
-      <div
-        className="hero min-h-screen"
-        style={{
-          // Photo by <a href="https://unsplash.com/@digitech?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ruvim Miksanskiy</a> on <a href="https://unsplash.com/photos/P-2B19yvulw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-          backgroundImage: `url(${img.src})`,
-        }}
-      >
+      <div className="hero min-h-screen bg-black">
         <div className="hero-overlay bg-opacity-70"></div>
         <div className="hero-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-4xl font-bold leading-relaxed text-primary-content">
-              Joseph Emerson for Portland City Council
-            </h1>
-            <div className="flex flex-column flex-wrap gap-3 justify-center items-center">
+          <div className="max-w-md flex flex-col gap-10">
+            <div className="flex flex-col justify-start items-center ">
+              <div className="h-2 w-11/12 md:w-3/4 bg-accent"></div>
+              <h1 className="mb-5 w-full text-7xl md:text-8xl lg:text-9xl uppercase font-bold text-white flex flex-col justify-stretch items-center">
+                <span>Joseph</span>
+                <span className="tracking-tighter text-center">Emerson</span>
+              </h1>
+              <div className="h-2 w-11/12 md:w-3/4 bg-accent"></div>
+            </div>
+            <div>
+              <h2 className="prose text-white">
+                Portland City Council, District 2
+              </h2>
+              <h2 className="prose text-white">
+                (North and Northeast Portland)
+              </h2>
+            </div>
+            <div className="flex flex-wrap gap-3 justify-center items-center">
               <DonateButton />
               <VolunteerButton />
             </div>
