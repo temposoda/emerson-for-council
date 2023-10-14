@@ -75,9 +75,9 @@ export const Navbar = () => (
           </a>
         </li>
         <li>
-          <a href="/volunteer" className="rounded-btn self-end">
+          <Link href="/volunteer" className="rounded-btn self-end">
             Volunteer
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

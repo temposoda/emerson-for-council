@@ -25,6 +25,9 @@ export const Footer = () => (
   <>
     <footer className="p-10 footer bg-base-200 text-base-content footer-center">
       <div className="grid grid-flow-col gap-4">
+        <Link href="/" className="link link-hover">
+          Home
+        </Link>
         <Link href="/about" className="link link-hover">
           About
         </Link>
