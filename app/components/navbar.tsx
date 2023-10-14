@@ -56,28 +56,28 @@ export const Navbar = () => (
         </div>
       </div>
     </div>
-    <div className="drawer-side">
+    <div className="drawer-side z-10">
       <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
       <ul className="p-4 overflow-y-auto menu w-full bg-base-100">
         <li>
-          <Link href="/" className="rounded-btn self-end">
+          <a href="/" className="rounded-btn self-end">
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/about" className="rounded-btn self-end">
+          <a href="/about" className="rounded-btn self-end">
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/platform" className="rounded-btn self-end">
+          <a href="/platform" className="rounded-btn self-end">
             Platform
-          </Link>
+          </a>
         </li>
         <li>
-          <Link href="/volunteer" className="rounded-btn self-end">
+          <a href="/volunteer" className="rounded-btn self-end">
             Volunteer
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

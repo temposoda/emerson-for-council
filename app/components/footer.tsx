@@ -8,9 +8,9 @@ const CancelSign = () => {
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="white"
+      stroke="currentColor"
       style={{ gridColumn: 1, gridRow: 1 }}
-      className="z-10"
+      className="z-10 text-primary"
     >
       <path
         strokeLinecap="round"
@@ -57,7 +57,7 @@ export const Footer = () => (
               width: "100%",
               height: "100%",
             }}
-            network="twitter"
+            network="x"
           />
         </Link>
         <Link
