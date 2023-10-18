@@ -8,13 +8,15 @@ import {
 } from "@/app/components";
 import { Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import Head from "next/head";
+import Script from "next/script";
 
 const openSans = Open_Sans({ subsets: ["latin"], display: "swap" });
 import "./globals.css";
 
 export const metadata = {
   title: "Emerson for Council",
-  description: "Joseph Emerson for Portland City Council, District #2",
+  description: "Joseph Emerson for Portland City Council, District 2",
 };
 
 export default async function RootLayout({

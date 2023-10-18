@@ -1,5 +1,6 @@
 import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
+import { EmailSignup } from "./";
 
 const CancelSign = () => {
   return (
@@ -81,6 +82,8 @@ export const Footer = () => (
           />
         </Link>
       </div>
+
+      <EmailSignup />
 
       <div>
         <Link
