@@ -3,7 +3,7 @@ import Link from "next/link";
 export const EmailSignup = () => {
   return (
     <Link
-      className="btn btn-outline"
+      className="btn btn-outline btn-primary"
       target="_blank"
       href="http://eepurl.com/iB2AIw"
     >
