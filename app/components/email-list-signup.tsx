@@ -8,7 +8,7 @@ export const EmailSignup = () => {
   return (
     <div>
       <div id="custom-substack-embed"></div>
-      <Script>
+      <Script id="substack-script">
         {`window.CustomSubstackWidget = {
     substackUrl: "emersonforcouncil.substack.com",
     placeholder: "example@gmail.com",
@@ -22,7 +22,11 @@ export const EmailSignup = () => {
     }
   };`}
       </Script>
-      <Script src="https://substackapi.com/widget.js" async />
+      <Script
+        id="substack-widget"
+        src="https://substackapi.com/widget.js"
+        async
+      />
     </div>
     // <iframe
     //   src="https://emersonforcouncil.substack.com/embed"
