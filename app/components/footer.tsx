@@ -24,9 +24,13 @@ const CancelSign = () => {
 
 export const Footer = () => (
   <>
-    <div className="bg-black flex justify-center items-center p-4 h-40">
+    <div className="bg-black flex flex-col justify-center items-center p-4 h-40 gap-4">
+      <p className="prose text-white">
+        Sign up to recieve news and updates from the campaign!
+      </p>
       <EmailSignup />
     </div>
+
     <footer className="p-10 footer bg-base-200 text-base-content footer-center">
       <div className="grid grid-flow-col gap-4">
         <Link href="/" className="link link-hover">
