@@ -88,6 +88,40 @@ export const Footer = () => (
             network="facebook"
           />
         </Link>
+        <Link
+          href="https://www.instagram.com/reel/Cyt0uvxLqEE/"
+          target="_blank"
+          className="grid h-12 w-12"
+        >
+          <CancelSign />
+          <SocialIcon
+            bgColor="black"
+            style={{
+              gridColumn: 1,
+              gridRow: 1,
+              width: "100%",
+              height: "100%",
+            }}
+            network="instagram"
+          />
+        </Link>
+        <Link
+          href="https://www.tiktok.com/@emersonforcouncil2024/video/7292896330085567787?is_from_webapp=1&sender_device=pc&web_id=7286346155541546527"
+          target="_blank"
+          className="grid h-12 w-12"
+        >
+          <CancelSign />
+          <SocialIcon
+            bgColor="black"
+            style={{
+              gridColumn: 1,
+              gridRow: 1,
+              width: "100%",
+              height: "100%",
+            }}
+            network="tiktok"
+          />
+        </Link>
       </div>
 
       <div>
