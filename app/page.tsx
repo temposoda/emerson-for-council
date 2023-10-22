@@ -9,12 +9,12 @@ export default async function Home() {
         <div className="hero-content text-center">
           <div className="max-w-md flex flex-col gap-10">
             <div className="flex flex-col justify-start items-center ">
-              <div className="h-2 w-full bg-accent"></div>
-              <h1 className="mb-2 w-full text-7xl md:text-8xl lg:text-9xl uppercase font-bold text-white flex flex-col justify-stretch items-center">
-                <span>Joseph</span>
-                <span className="tracking-tighter text-center">Emerson</span>
+              <h1 className="border-solid border-t-4 border-b-4 border-current text-accent mb-2 w-full text-7xl md:text-8xl lg:text-9xl uppercase font-bold flex flex-col justify-stretch items-center">
+                <span className="text-white">Joseph</span>
+                <span className="text-white tracking-tighter text-center">
+                  Emerson
+                </span>
               </h1>
-              <div className="h-2 w-full bg-accent"></div>
             </div>
             <div>
               <h2 className="prose text-white">
