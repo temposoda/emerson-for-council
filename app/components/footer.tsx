@@ -89,7 +89,7 @@ export const Footer = () => (
           />
         </Link>
         <Link
-          href="https://www.instagram.com/reel/Cyt0uvxLqEE/"
+          href="https://www.instagram.com/reel/CyuH5OFOP0H"
           target="_blank"
           className="grid h-12 w-12"
         >
@@ -106,7 +106,7 @@ export const Footer = () => (
           />
         </Link>
         <Link
-          href="https://www.tiktok.com/@emersonforcouncil2024/video/7292896330085567787?is_from_webapp=1&sender_device=pc&web_id=7286346155541546527"
+          href="https://www.tiktok.com/@emersonforcouncil2024/video/7292939549783723306"
           target="_blank"
           className="grid h-12 w-12"
         >
