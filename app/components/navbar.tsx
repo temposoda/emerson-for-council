@@ -41,6 +41,11 @@ export const Navbar = () => (
               </Link>
             </li>
             <li>
+              <Link href="/events" className="rounded-btn">
+                Events
+              </Link>
+            </li>
+            <li>
               <Link href="/volunteer" className="rounded-btn">
                 Volunteer
               </Link>
@@ -73,6 +78,11 @@ export const Navbar = () => (
         <li>
           <a href="/platform" className="rounded-btn self-end">
             Platform
+          </a>
+        </li>
+        <li>
+          <a href="/events" className="rounded-btn self-end">
+            Events
           </a>
         </li>
         <li>

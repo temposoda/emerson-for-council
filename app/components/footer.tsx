@@ -42,6 +42,9 @@ export const Footer = () => (
         <Link href="/platform" className="link link-hover">
           Platform
         </Link>
+        <Link href="/events" className="link link-hover">
+          Events
+        </Link>
         <Link href="volunteer" className="link link-hover">
           Volunteer
         </Link>
