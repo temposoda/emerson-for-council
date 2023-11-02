@@ -5,3 +5,7 @@
 *::marker {
   color: currentColor !important;
 }
+
+.prose a {
+  color: #f43e9f;
+}
