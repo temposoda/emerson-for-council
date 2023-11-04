@@ -45,6 +45,9 @@ export const Footer = () => (
         <Link href="/events" className="link link-hover">
           Events
         </Link>
+        <Link href="news" className="link link-hover">
+          News
+        </Link>
         <Link href="volunteer" className="link link-hover">
           Volunteer
         </Link>

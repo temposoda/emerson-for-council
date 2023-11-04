@@ -46,6 +46,11 @@ export const Navbar = () => (
               </Link>
             </li>
             <li>
+              <Link href="/news" className="rounded-btn">
+                News
+              </Link>
+            </li>
+            <li>
               <Link href="/volunteer" className="rounded-btn">
                 Volunteer
               </Link>
@@ -83,6 +88,11 @@ export const Navbar = () => (
         <li>
           <a href="/events" className="rounded-btn self-end">
             Events
+          </a>
+        </li>
+        <li>
+          <a href="/news" className="rounded-btn self-end">
+            News
           </a>
         </li>
         <li>
