@@ -4,8 +4,9 @@ import Image from "next/image";
 // This file is required to use MDX in `app` directory.
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
+    ...components,
     // Allows customizing built-in components, e.g. to add styling.
-    img: (props) => (
+    img: ({ width, height, src, ...props }) => (
       <Image
         alt="Picture of the author"
         sizes="100vw"
@@ -14,11 +15,10 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           height: "auto",
         }}
         width={500}
-        height={300}
-        full
-        {...props}
+        height={400}
+        src={String(src)}
+        {...(props as any)}
       />
     ),
-    ...components,
   };
 }
