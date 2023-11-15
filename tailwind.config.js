@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  theme: {
+    extend: {
+      blur: {
+        xs: "1px",
+      },
+    },
+  },
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
