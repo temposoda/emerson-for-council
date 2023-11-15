@@ -14,7 +14,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           width: "100%",
           height: "auto",
         }}
-        preload={true}
+        priority={true}
         placeholder="blur"
         blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNksAUAAEMAP+W2QeMAAAAASUVORK5CYII="
         width={500}

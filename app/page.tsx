@@ -38,6 +38,7 @@ export default async function Home() {
         <div className="min-h-[80vh] md:min-h-screen flex justify-strech items-stretch relative">
           <Image
             fill={true}
+            priority={true}
             className="grow"
             src={AlbertaPark.src}
             alt="Joseh Emerson with a content smile wearing a white shirt and blue trousers stands leaning against a concrete column. He has a brown belt and a watch on his left wrist. The background is an outdoor setting with blurred greenery, indicating a sunny day in a park or garden."
