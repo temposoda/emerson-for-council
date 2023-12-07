@@ -36,32 +36,32 @@ export const Navbar = () => (
         <div className="flex-none hidden lg:flex lg:flex-row-reverse lg:grow">
           <ul className="menu menu-horizontal">
             <li>
-              <Link href="/" className="rounded-btn">
+              <Link href="/" className="rounded-btn btn-lg">
                 Home
               </Link>
             </li>
             <li>
-              <Link href="/about" className="rounded-btn">
+              <Link href="/about" className="rounded-btn btn-lg">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/platform" className="rounded-btn">
+              <Link href="/platform" className="rounded-btn btn-lg">
                 Platform
               </Link>
             </li>
             <li>
-              <Link href="/events" className="rounded-btn">
+              <Link href="/events" className="rounded-btn btn-lg">
                 Events
               </Link>
             </li>
             <li>
-              <Link href="/news" className="rounded-btn">
+              <Link href="/news" className="rounded-btn btn-lg">
                 News
               </Link>
             </li>
             <li>
-              <Link href="/volunteer" className="rounded-btn">
+              <Link href="/volunteer" className="rounded-btn btn-lg">
                 Volunteer
               </Link>
             </li>
