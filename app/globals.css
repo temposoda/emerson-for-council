@@ -9,3 +9,11 @@
 .prose a {
   color: #f43e9f;
 }
+
+.menu a:active,
+.menu a:hover,
+.navbar a:active,
+.navbar a:hover {
+  color: #f43e9f;
+  font-size: 120%;
+}

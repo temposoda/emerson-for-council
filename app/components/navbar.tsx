@@ -1,18 +1,28 @@
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "../../public/svg-logo.svg";
 
 export const Navbar = () => (
-  <div className="rounded-lg shadow drawer drawer-end">
+  <div className="shadow drawer drawer-end bg-black text-white">
     <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
     <div className="flex flex-row drawer-content">
-      <div className="w-full navbar justify-end">
-        <div className="flex-none lg:hidden">
+      <div className="w-full navbar px-8">
+        <div className="lg:max-w-[25%] md:max-w-[35%] max-w-[50%]">
+          <Image
+            style={{ position: "relative" }}
+            src={Logo.src}
+            alt="logo"
+            height={Logo.height}
+            width={Logo.width}
+          />
+        </div>
+        <div className="flex grow flex-row-reverse lg:hidden">
           <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              className="inline-block w-6 h-6 stroke-current"
+              className="inline-block w-16 h-16 stroke-current"
             >
               <path
                 strokeLinecap="round"
@@ -23,7 +33,7 @@ export const Navbar = () => (
             </svg>
           </label>
         </div>
-        <div className="flex-none hidden lg:block">
+        <div className="flex-none hidden lg:flex lg:flex-row-reverse lg:grow">
           <ul className="menu menu-horizontal">
             <li>
               <Link href="/" className="rounded-btn">
@@ -69,7 +79,7 @@ export const Navbar = () => (
     </div>
     <div className="drawer-side z-10">
       <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-      <ul className="p-4 overflow-y-auto menu w-full bg-base-100">
+      <ul className="p-4 overflow-y-auto menu w-full bg-black">
         <li>
           <a href="/" className="rounded-btn self-end">
             Home
