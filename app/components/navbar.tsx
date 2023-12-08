@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../public/svg-logo.svg";
+import Logo from "../../public/logo-1.svg";
 
 export const Navbar = () => (
   <div className="shadow drawer drawer-end bg-black text-white">
@@ -8,13 +8,8 @@ export const Navbar = () => (
     <div className="flex flex-row drawer-content">
       <div className="w-full navbar px-8">
         <div className="lg:max-w-[25%] md:max-w-[35%] max-w-[50%]">
-          <Image
-            style={{ position: "relative" }}
-            src={Logo.src}
-            alt="logo"
-            height={Logo.height}
-            width={Logo.width}
-          />
+          {/* <Logo /> */}
+          <Image style={{ position: "relative" }} src={Logo} alt="logo" />
         </div>
         <div className="flex grow flex-row-reverse lg:hidden">
           <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
