@@ -76,32 +76,32 @@ export const Navbar = () => (
       <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
       <ul className="p-4 overflow-y-auto menu w-full bg-black">
         <li>
-          <a href="/" className="rounded-btn self-end">
+          <a href="/" className="rounded-btn btn-lg self-end">
             Home
           </a>
         </li>
         <li>
-          <a href="/about" className="rounded-btn self-end">
+          <a href="/about" className="rounded-btn btn-lg self-end">
             About
           </a>
         </li>
         <li>
-          <a href="/platform" className="rounded-btn self-end">
+          <a href="/platform" className="rounded-btn btn-lg self-end">
             Platform
           </a>
         </li>
         <li>
-          <a href="/events" className="rounded-btn self-end">
+          <a href="/events" className="rounded-btn btn-lg self-end">
             Events
           </a>
         </li>
         <li>
-          <a href="/news" className="rounded-btn self-end">
+          <a href="/news" className="rounded-btn btn-lg self-end">
             News
           </a>
         </li>
         <li>
-          <Link href="/volunteer" className="rounded-btn self-end">
+          <Link href="/volunteer" className="rounded-btn btn-lg self-end">
             Volunteer
           </Link>
         </li>
