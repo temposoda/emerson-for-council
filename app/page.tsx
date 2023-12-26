@@ -1,7 +1,6 @@
 import { DonateButton, VolunteerButton } from "@/app/components";
 import Content from "./content.mdx";
 import AlbertaPark from "../public/alberta-park-casual-hires.jpg";
-import Image from "next/image";
 
 export default async function Home() {
   return (
