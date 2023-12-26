@@ -17,6 +17,7 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vercel/analytics": "latest",
+    "@vercel/speed-insights": "latest",
     "autoprefixer": "latest",
     "daisyui": "latest",
     "eslint": "latest",

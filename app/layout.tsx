@@ -1,15 +1,8 @@
 import React from "react";
-import img from "@/public/stjohns-bridge.jpg";
-import {
-  Footer,
-  DonateButton,
-  VolunteerButton,
-  Navbar,
-} from "@/app/components";
+import { Footer, Navbar } from "@/app/components";
 import { Open_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import Head from "next/head";
-import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const openSans = Open_Sans({ subsets: ["latin"], display: "swap" });
 import "./globals.css";
@@ -35,6 +28,7 @@ export default async function RootLayout({
         {children}
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
