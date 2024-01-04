@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/logo-1.svg";
+import { DonateButton } from "./donate-button";
 
 export const Navbar = () => (
   <div className="shadow drawer drawer-end bg-black text-white">
@@ -29,7 +30,7 @@ export const Navbar = () => (
           </label>
         </div>
         <div className="flex-none hidden lg:flex lg:flex-row-reverse lg:grow">
-          <ul className="menu menu-horizontal">
+          <ul className="flex items-center justify-center">
             <li>
               <Link href="/" className="rounded-btn btn-lg">
                 Home
@@ -61,12 +62,7 @@ export const Navbar = () => (
               </Link>
             </li>
             <li>
-              <Link
-                className="rounded-btn btn-primary"
-                href="https://secure.actblue.com/donate/emersonforcouncil"
-              >
-                Donate
-              </Link>
+              <DonateButton />
             </li>
           </ul>
         </div>
