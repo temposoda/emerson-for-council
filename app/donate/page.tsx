@@ -1,3 +1,14 @@
-export default async function DonateRedirect() {
-  return "I have temporarily suspended donations while considering their role in our politics. Thank you for considering that support and encouragement, it means a lot that you would.";
+import Content from "./content.mdx";
+import React from "react";
+
+export default async function Donate() {
+  return (
+    <main className="flex flex-col items-center grow p-8">
+      <div className="flex flex-col justify-center items-center flex-wrap gap-8">
+        <div className="prose">
+          <Content />
+        </div>
+      </div>
+    </main>
+  );
 }
