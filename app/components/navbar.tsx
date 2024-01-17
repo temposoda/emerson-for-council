@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../public/logo-1.svg";
-import { DonateButton } from "./donate-button";
 
 export const Navbar = () => (
   <div className="shadow drawer drawer-end bg-black text-white">
@@ -60,9 +59,6 @@ export const Navbar = () => (
               <Link href="/volunteer" className="rounded-btn btn-lg">
                 Volunteer
               </Link>
-            </li>
-            <li>
-              <DonateButton />
             </li>
           </ul>
         </div>

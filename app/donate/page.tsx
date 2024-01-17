@@ -1,6 +1,3 @@
-import { permanentRedirect } from "next/navigation";
-
-// https://dpo.org/oregon-political-tax-credit/
 export default async function DonateRedirect() {
-  permanentRedirect("https://secure.actblue.com/donate/emersonforcouncil");
+  return "I have temporarily suspended donations while considering their role in our politics. Thank you for considering that support and encouragement, it means a lot that you would.";
 }

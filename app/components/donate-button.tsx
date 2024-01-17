@@ -5,7 +5,7 @@ export const DonateButton = () => {
   return (
     <Link
       className="btn btn-lg btn-primary"
-      href="https://secure.actblue.com/donate/emersonforcouncil"
+      href="https://www.emersonforcouncil.com/donate"
     >
       Donate
     </Link>
